@@ -1,0 +1,8 @@
+﻿namespace GestionEmployee.Dtos.LeaveRequestStatus
+{
+    public class ReadLeaveRequestStatus
+    {
+        public int Id { get; set; }
+        public string Status { get; set; }
+    }
+}
